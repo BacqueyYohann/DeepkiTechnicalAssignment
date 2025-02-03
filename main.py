@@ -27,4 +27,6 @@ transform_data()
 # find closest building from cristo for every entry files (if necessary)
 closest_to_cristo =[]
 for filename in os.listdir('data/clean'):
+    if filename == '.gitkeep':  # Skip .gitkeep file
+        continue
     closest_to_cristo.append(search_closest(filename, cristo_lat, cristo_long))

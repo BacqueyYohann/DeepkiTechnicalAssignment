@@ -20,3 +20,5 @@ data/clean/
 *.tar.gz
 *.zip
 *.gz
+
+!.gitkeep
