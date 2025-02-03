@@ -4,3 +4,5 @@
 
 
 Use the command `pip install -r requirements.txt` to install dependencies.
+
+and `python main.py` to execute.
