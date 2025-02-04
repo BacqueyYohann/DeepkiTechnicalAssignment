@@ -18,8 +18,8 @@ url = 'https://storage.googleapis.com/open-buildings-data/v3/polygons_s2_level_4
 
 
 # CHOSE ONE DOWNLOAD ONLY, use URL or your own wkt polygon
-download_csv(your_own_wkt_polygon)
-""" download_csv_from_url(url) """
+""" download_csv(your_own_wkt_polygon) """
+download_csv_from_url(url)
 
 # cleaning the data 
 transform_data()

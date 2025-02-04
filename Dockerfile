@@ -16,10 +16,12 @@ RUN apt-get update && apt-get install -y \
     python3-dev \
     protobuf-compiler \
     build-essential \
+    libgeos-dev \
+    git \
     && rm -rf /var/lib/apt/lists/*
 
 # Force a manual installation of s2geometry from PyPI
-#RUN pip install --no-cache-dir --force-reinstall --no-binary :all: s2geometry
+#RUN pip install --no-cache-dir --force-reinstall --no-binary :all: s2geometry==0.9.0
 
 
 # Install Python dependencies
